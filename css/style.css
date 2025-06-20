@@ -139,6 +139,9 @@ a {
     padding: 16px 32px;
     margin: 0 auto;
     display: block;
+    border: none;
+    min-width: 169px;
+    height: 56px;
 }
 .hero-baner-button:hover,
 .hero-baner-button:focus
@@ -147,7 +150,7 @@ a {
 }
 /* Hero baner end */
 /* Features Section start */
-.features-head-title {
+/* .features-head-title {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -155,7 +158,8 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     padding-bottom: 72px;
-}
+
+} */
 .features-list {
     display: flex;
     gap: 24px;
@@ -170,7 +174,7 @@ a {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 
 }
 .features-list-item-text {
@@ -194,7 +198,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 }
 .team-list {
@@ -209,7 +213,7 @@ a {
     border-radius: 0 0 4px 4px;
 }
 .team-container {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .team-list-item-title {
     font-size: 20px;
@@ -217,12 +221,14 @@ a {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 .team-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 /* Team section end */
 /* Portfolio section start */
@@ -237,7 +243,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .portfolio-list{
     display: flex;
@@ -251,9 +257,9 @@ a {
     
 }
 .portfolio-box-text {
-    padding-left: 16px;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-list-item-title {
     font-size: 20px;
@@ -261,7 +267,7 @@ a {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
    
 }  
 .portfolio-list-item-text {
@@ -281,7 +287,6 @@ a {
   .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-    display: block;
   }
   .footer-text {    
     color: #F4F4FD;
