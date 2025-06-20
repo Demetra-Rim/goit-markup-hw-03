@@ -150,16 +150,7 @@ a {
 }
 /* Hero baner end */
 /* Features Section start */
-/* .features-head-title {
-    color: #2e2f42;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    padding-bottom: 72px;
 
-} */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -169,7 +160,7 @@ a {
     border: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
-    clip-path: inset(50%);
+    clip-path: inset(100%);
     white-space: nowrap;
 }
 .features-list {
