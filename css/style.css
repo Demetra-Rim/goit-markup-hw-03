@@ -150,7 +150,7 @@ a {
 }
 /* Hero baner end */
 /* Features Section start */
-/* .features-head-title {
+.features-head-title {
     color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
@@ -159,7 +159,19 @@ a {
     text-transform: capitalize;
     padding-bottom: 72px;
 
-} */
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
 .features-list {
     display: flex;
     gap: 24px;
